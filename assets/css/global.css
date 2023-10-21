@@ -9,10 +9,17 @@ body {
 
 .content {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     padding: 1rem;
     background-color: #fff;
+    border-radius: 1rem;
+    border: solid 1px rgb(0, 0, 0);
+    margin: 5px auto;
+    max-width: 90%;
+ 
 }
+
+
 
 @media screen and (min-width: 992px) {
     .content {

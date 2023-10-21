@@ -1,3 +1,12 @@
+#logo{
+    margin: 0;
+    width: 10%;
+}
+#pokedex{
+    width: 80%;
+    margin: 0 auto;
+}
+
 .pokemons {
     display: grid;
     grid-template-columns: 1fr;
@@ -84,6 +93,8 @@
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
+    box-shadow:  5px 5px 100px #666666,
+    -5px -5px 100px #ffffff;
 }
 
 .pokemon .number {
